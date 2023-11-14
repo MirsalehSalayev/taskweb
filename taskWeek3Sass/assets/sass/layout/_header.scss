@@ -1,0 +1,120 @@
+@media only screen and (max-width: 1000px) {
+    header{
+        height: 600px !important;
+    }
+    section{
+        margin-top: 150px !important;
+
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    header{
+        height: 500px !important;
+    }
+    section{
+        margin-top: 130px !important;
+
+    }
+  }
+header{
+    background-image: url(https://websitedemos.net/earth-store-02/wp-content/uploads/sites/1171/2022/10/Banner.jpg);
+    height: 800px;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    @media only screen and (max-width: 920px) {
+        nav ul li{
+            display: none;
+        }
+       
+        nav ul{
+            max-width: 100px;
+        }
+        span{
+          
+            display: block !important;
+            
+        }
+       
+      }
+     
+      @media only screen and (max-width: 765px) {
+        header{
+            height: 200px !important;
+        }
+       
+        p{
+            font-size: 20px !important
+            
+        }
+        button{
+            color: white;
+            font-size: 10px;
+            width: 170px !important;
+
+         
+        }
+      }
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        div{
+            margin: 20px;
+            font-family: 'Pixelify Sans', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            font-size: 30px;
+        }
+        ul{
+            font-weight: 100;
+            font-family: 'Pixelify Sans', sans-serif;
+            font-family: 'Roboto', sans-serif;
+            margin: 20px;
+            font-size: 20px;
+            margin-top: 20px;
+            display: flex;
+            width: 500px;
+            justify-content: space-evenly;
+            span{
+                display: none;
+            }
+        }
+}
+    section{
+        margin-top: 200px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-evenly;
+        align-items: center;
+        align-content: center;
+        h1{
+            color: #2c541d;
+            font-size: 60px;
+            font-family: 'Pixelify Sans', sans-serif;
+            font-family: 'Roboto', sans-serif;
+        }
+        p{
+            font-size: 30px;
+            font-family: 'Pixelify Sans', sans-serif;
+            font-family: 'Roboto', sans-serif;
+        }
+        button{
+            background-color: #74a84a;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            width: 200px;
+
+        }
+    }
+    
+}
